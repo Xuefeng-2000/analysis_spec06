@@ -1,0 +1,82 @@
+Global frequency set at 1000000000000 ticks per second
+ Register [printBranch()] ExitCallback !!!!!!! 
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Sep  7 2022 00:42:18
+gem5 started Sep  7 2022 06:48:38
+gem5 executing on a100, pid 2834957
+command line: /data/zxf/gem5/gem5-prof/build/ARM/gem5.fast --outdir=/data/zxf/checkpoint/spec2006/429.mcf/prof/mcf_ckp_13 /data/zxf/gem5/gem5-prof/configs/example/se.py --cpu-type O3CPU --cpu-clock 1GHz --num-cpu 1 --l1d-hwp-type=BOPPrefetcher --caches --l2cache --l1i_size 32kB --l1d_size 32kB --l2_size 1MB --l1i_assoc 8 --l1d_assoc 8 --l2_assoc 16 --cacheline_size 64 --mem-type DDR3_2133_8x8 --mem-size 16GB --restore-simpoint-checkpoint -r 13 --checkpoint-dir /data/zxf/checkpoint/spec2006/429.mcf/ckpt -c mcf_base.gcc41-64bit -o inp.in
+
+info: Standard input is not a terminal, disabling listeners.
+Resuming from /data/zxf/checkpoint/spec2006/429.mcf/ckpt/cpt.simpoint_12_inst_283490000000_weight_0.007843_interval_300000000_warmup_10000000
+Resuming from SimPoint #12, start_inst:283490000000, weight:0.007843, interval:300000000, warmup:10000000
+Switch at curTick count:10000
+Switched CPUS @ tick 165674479460500
+[(<m5.objects.ArmCPU.ArmAtomicSimpleCPU object at 0x7fd306197bb0>, <m5.objects.ArmCPU.ArmO3CPU object at 0x7fd3061afe20>)]
+switching cpus
+
+
+
++++++++++++++++++++++++++zxf print simpoint+++++++++++++++++++++++++++
+Warmed up! Dumping and resetting stats!
+
+
+=============start sim!!!!!!=============
+PC:11552     Total:11506912      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11506     Total:14389      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11528     Total:11514593      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11524     Total:11514865      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11520     Total:11515898      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1155a     Total:2      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11538     Total:11509365      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1151e     Total:11516229      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11558     Total:11506646      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11534     Total:11509884      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1151a     Total:11516542      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11554     Total:11506806      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11518     Total:34554436      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1152a     Total:57565866      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11530     Total:46043150      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11516     Total:11519176      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11550     Total:11506963      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1153a     Total:11509007      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1153e     Total:14418      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11542     Total:7      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11546     Total:7      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11548     Total:11507307      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1154a     Total:11507180      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1154c     Total:11507059      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11556     Total:11506726      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1155c     Total:2      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114f6     Total:14399      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114fc     Total:14399      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114f8     Total:14399      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114f4     Total:14399      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114ee     Total:14400      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1157e     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11504     Total:14390      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1157a     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11500     Total:14390      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11576     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11574     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11570     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1152c     Total:23023138      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1156c     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114f2     Total:14399      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11568     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11512     Total:11519521      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11510     Total:11519631      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1150c     Total:11519757      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1150a     Total:11519912      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:114f0     Total:14400      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11566     Total:7      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11562     Total:2      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11560     Total:2      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11536     Total:11509648      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11540     Total:14412      MisBP:1   MisRate:0.01%    MPKI:0.00
+PC:1153c     Total:11508828      MisBP:14331   MisRate:0.12%    MPKI:0.05
+Totfetch:426137875  TotInsts:310000001  TotMis : inf%   MPKI : 0.05
+=============finish sim!!!!!!=============
+Done running SimPoint!

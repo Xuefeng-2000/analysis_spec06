@@ -1,0 +1,167 @@
+Global frequency set at 1000000000000 ticks per second
+ Register [printBranch()] ExitCallback !!!!!!! 
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Sep  7 2022 00:42:18
+gem5 started Sep  7 2022 05:05:54
+gem5 executing on a100, pid 2798007
+command line: /data/zxf/gem5/gem5-prof/build/ARM/gem5.fast --outdir=/data/zxf/checkpoint/spec2006/429.mcf/prof/mcf_ckp_9 /data/zxf/gem5/gem5-prof/configs/example/se.py --cpu-type O3CPU --cpu-clock 1GHz --num-cpu 1 --l1d-hwp-type=BOPPrefetcher --caches --l2cache --l1i_size 32kB --l1d_size 32kB --l2_size 1MB --l1i_assoc 8 --l1d_assoc 8 --l2_assoc 16 --cacheline_size 64 --mem-type DDR3_2133_8x8 --mem-size 16GB --restore-simpoint-checkpoint -r 9 --checkpoint-dir /data/zxf/checkpoint/spec2006/429.mcf/ckpt -c mcf_base.gcc41-64bit -o inp.in
+
+info: Standard input is not a terminal, disabling listeners.
+Resuming from /data/zxf/checkpoint/spec2006/429.mcf/ckpt/cpt.simpoint_08_inst_234890000000_weight_0.038431_interval_300000000_warmup_10000000
+Resuming from SimPoint #8, start_inst:234890000000, weight:0.038431, interval:300000000, warmup:10000000
+Switch at curTick count:10000
+Switched CPUS @ tick 137634894705500
+[(<m5.objects.ArmCPU.ArmAtomicSimpleCPU object at 0x7feb18949bb0>, <m5.objects.ArmCPU.ArmO3CPU object at 0x7feb18961e20>)]
+switching cpus
+
+
+
++++++++++++++++++++++++++zxf print simpoint+++++++++++++++++++++++++++
+Warmed up! Dumping and resetting stats!
+
+
+=============start sim!!!!!!=============
+PC:111f4     Total:4460376      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113e6     Total:422      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11284     Total:5720953      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ea     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11288     Total:5719954      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ee     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113f0     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113f2     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113f4     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11280     Total:5722388      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113f6     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:111fa     Total:439539      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113f8     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:111f8     Total:440823      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113fa     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:111fe     Total:438769      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:111fc     Total:439155      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1127a     Total:5747394      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1138e     Total:524      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11274     Total:5760166      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11372     Total:416      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113d8     Total:429      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11276     Total:5758425      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11374     Total:416      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113da     Total:427      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11278     Total:5757151      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113fe     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11378     Total:416      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113de     Total:426      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1127c     Total:5746249      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113e0     Total:426      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1127e     Total:5742481      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1137c     Total:416      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113e2     Total:425      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11212     Total:432806      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ca     Total:463401      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113cc     Total:461147      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11200     Total:436972      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11204     Total:436540      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11208     Total:436468      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1120c     Total:436257      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1120e     Total:434784      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11210     Total:433978      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113c8     Total:463876      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11214     Total:431689      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11218     Total:431279      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1121a     Total:430077      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1121c     Total:429141      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1121e     Total:428728      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11222     Total:428176      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11226     Total:426790      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113b4     Total:2579451      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11202     Total:436630      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11364     Total:419      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113a2     Total:8483061      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113a4     Total:8461621      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113a8     Total:8447786      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ac     Total:2649306      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113b0     Total:2632594      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113b2     Total:2621737      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113d6     Total:429      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113b6     Total:2574440      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ba     Total:2569790      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113be     Total:472405      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113c0     Total:466041      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113c2     Total:465820      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113c4     Total:465473      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113c6     Total:464662      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1122c     Total:6112799      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11242     Total:6041573      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1123e     Total:6044508      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1123a     Total:6071690      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11238     Total:6072127      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11236     Total:6076622      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11234     Total:6078492      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11232     Total:6079300      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1122e     Total:6111257      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11246     Total:6038997      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113a0     Total:8497459      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:112a0     Total:382323      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1129e     Total:5707803      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1139c     Total:9515517      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11370     Total:416      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1139a     Total:9536170      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1126a     Total:5776131      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1129c     Total:5709374      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1124a     Total:6035257      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1124e     Total:6030780      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113d2     Total:380958      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113e4     Total:422      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113e8     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113ec     Total:1      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1122a     Total:426377      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11390     Total:9275983      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11380     Total:414      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11382     Total:530      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11384     Total:529      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11386     Total:527      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11388     Total:527      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1138a     Total:527      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1138c     Total:524      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1126e     Total:5765080      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1125c     Total:5947029      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11368     Total:419      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11296     Total:5668903      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11394     Total:9604593      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1125a     Total:5957674      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11358     Total:422      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11292     Total:5669821      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:113d0     Total:380967      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1135a     Total:421      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1136c     Total:417      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11254     Total:6014160      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1128e     Total:5677406      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1126c     Total:5767862      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1136a     Total:418      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11252     Total:6023680      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11272     Total:5761224      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11298     Total:5664705      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11268     Total:5778409      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11264     Total:5783603      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11362     Total:419      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11262     Total:5789846      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11360     Total:421      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11260     Total:5790725      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1129a     Total:5652613      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11398     Total:9548620      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:1135c     Total:421      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:11396     Total:9568402      MisBP:0   MisRate:0.00%    MPKI:0.00
+PC:112a2     Total:2675806      MisBP:3   MisRate:0.00%    MPKI:0.00
+PC:113d4     Total:380942      MisBP:36   MisRate:0.01%    MPKI:0.00
+PC:11392     Total:9246406      MisBP:310   MisRate:0.00%    MPKI:0.00
+PC:11258     Total:6001643      MisBP:16368   MisRate:0.27%    MPKI:0.05
+PC:1128c     Total:5718362      MisBP:19046   MisRate:0.33%    MPKI:0.06
+PC:1139e     Total:9488373      MisBP:93202   MisRate:0.98%    MPKI:0.30
+PC:113bc     Total:2565668      MisBP:127834   MisRate:4.98%    MPKI:0.41
+PC:1125e     Total:5940891      MisBP:210718   MisRate:3.55%    MPKI:0.68
+PC:113aa     Total:8381324      MisBP:391875   MisRate:4.68%    MPKI:1.26
+Totfetch:409356359  TotInsts:310000000  TotMis : inf%   MPKI : 2.77
+=============finish sim!!!!!!=============
+Done running SimPoint!
